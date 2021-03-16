@@ -1,0 +1,197 @@
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.navbar {
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(69, 175, 236);
+  padding-bottom: 4px;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.navlinks {
+  margin: 50px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 35px;
+}
+
+.projectheaders {
+  font-size: 55px;
+}
+
+.bttnStyle {
+  border-radius: 25px;
+  font-family: "Lucida Console", Courier, monospace;
+  flex: 1;
+  flex-direction: center;
+  text-align:center;
+  margin-top: 50px;
+}
+
+.bob-picture {
+  width: 600px;
+  height: 350px;
+  border-radius: 3%;
+}
+
+.resume-picture {
+  width: 600px;
+  height: 350px;
+  border-radius: 3%;
+  border: 5px solid #555;
+}
+
+.cookdpic {
+  width: 225px;
+  height: 400px;
+}
+
+.projectlist {
+  margin-top: 30px;
+  flex: 1;
+  flex-direction: center;
+  text-align:center;
+}
+
+.description-text {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+
+.bio-logos {
+  width: 130px;
+  height: 110px;
+}
+
+.logos-block {
+  text-align:center;
+}
+
+.margin-top {
+  margin-top: 15%;
+}
+
+.divMap {
+  margin-top: 50px;
+  text-align:center;
+}
+
+.skills-map-div {
+  /* display: flex; */
+}
+
+.skills-div {
+  margin-top: 50px;
+  /* text-align:left; */
+  margin-left: 13%;
+  display: flex;
+}
+
+.sticky-div {
+  margin-left: 10%;
+  margin-top: 3%;
+  height: 150px;
+  width: 700px;
+  vertical-align: middle;
+}
+
+.sticky-child {
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 500px;
+  width: 700px;
+  vertical-align: middle;
+  border: 5px solid #555;
+  border-radius: 30%;
+  background-color: #5CDB95;
+}
+
+.skills-text {
+  margin-top: 14%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 30px;
+}
+
+body {
+  background-color: #e4dede;
+}
+
+@media (min-width: 1015px) and (max-width: 1360px) {
+  .timeline {
+    padding-top: 5%;
+  }
+}
+
+.schoolbiolink {
+  margin-left: 3px;
+}
+
+.introblock {
+  margin: 20px;
+  font-size: 20px;
+  margin-left: 18%;
+}
+
+.nickpicture {
+  margin-right: 20px;
+  display: block;
+  float: left;
+  padding: 10px;
+  width: 190px;
+  height: 190px;
+}
+
+.bio-div {
+margin-left: 15%;
+margin-right:8%;
+margin-top: 60px;
+}
+
+.nav-image {
+  margin-top: 2px;
+  width: 65px;
+  height: 55px;
+}
+
+.nav-image-pencil {
+  margin-top: 2px;
+  margin-right: 3px;
+  width: 35px;
+  height: 55px;
+}
+
+.nav-image-school {
+  margin-top: 4px;
+  width: 45px;
+  height: 60px;
+}
+
+.nav-image-laptop {
+  margin-right: 3px;
+  margin-top: 2px;
+  width: 65px;
+  height: 55px;
+}
+
+.nav-logo-image {
+  /* margin-top: 15px !important; */
+  width: 100px;
+  height: 100px;
+  float: left !important;
+  /* padding-left: 8%; */
+}
