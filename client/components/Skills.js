@@ -2,7 +2,10 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { getSkills } from '../redux'
 import Roll from 'react-reveal/Roll';
+import Image from 'react-bootstrap/Image'
 import Sticky from 'react-sticky-el';
+import gmaillogo from '../Images/gmaillogo.png'
+import linkedinlogo from '../Images/linkedinlogo.png'
 
 class Skills extends React.Component {
   constructor(props) {
@@ -32,28 +35,39 @@ class Skills extends React.Component {
   render() {
     let skills = this.props.skills
     return (
-      <div className='skills-div'>
-        <div>
-          <h1>Coding Skills:</h1>
-          {skills.map(skill => (
-            <div className='skills-map-div' key={skill.id}>
-              <Roll>
-                <div>
-                  <button className="bttnStyle" onMouseOver={() => this.onMouseOver(skill.descriptions)}>
-                    <h1>{skill.name}</h1>
-                  </button>
-                </div>
-              </Roll>
-            </div>
-          ))}
-        </div>
-        <Sticky className='sticky-div'>
-          <div className='sticky-child'>
-          <p className='skills-text'>
-            {this.state.text}
-          </p>
+      <div>
+        <div className='skills-div'>
+          <div>
+            <h1>Coding Skills:</h1>
+            {skills.map(skill => (
+              <div className='skills-map-div' key={skill.id}>
+                <Roll>
+                  <div>
+                    <div className="bttnStyle" onMouseOver={() => this.onMouseOver(skill.descriptions)}>
+                      <h1>{skill.name}</h1>
+                    </div>
+                  </div>
+                </Roll>
+              </div>
+            ))}
           </div>
-        </Sticky>
+          <Sticky className='sticky-div'>
+            <div className='sticky-child'>
+              <p className='skills-text'>
+                {this.state.text}
+              </p>
+            </div>
+          </Sticky>
+        </div>
+        <hr className='margin-top' />
+        <div className='logos-block'>
+          <a href='mailto:ncgeismar@gmail.com'>
+            <Image className='bio-logos' src={gmaillogo} />
+          </a>
+          <a href='https://www.linkedin.com/in/nicholas-geismar/'>
+            <Image className='bio-logos' src={linkedinlogo} />
+          </a>
+        </div>
       </div>
     )
   }

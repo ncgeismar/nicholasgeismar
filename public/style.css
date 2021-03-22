@@ -37,6 +37,8 @@
   flex-direction: center;
   text-align:center;
   margin-top: 50px;
+  height: 45px;
+  background-color: #55DDE0;
 }
 
 .bob-picture {
@@ -88,10 +90,6 @@
   text-align:center;
 }
 
-.skills-map-div {
-  /* display: flex; */
-}
-
 .skills-div {
   margin-top: 50px;
   /* text-align:left; */
@@ -110,11 +108,11 @@
 .sticky-child {
   margin-left: 10%;
   margin-top: 10%;
-  height: 500px;
+  height: 400px;
   width: 700px;
   vertical-align: middle;
   border: 5px solid #555;
-  border-radius: 30%;
+  border-radius: 5%;
   background-color: #5CDB95;
 }
 
@@ -123,7 +121,7 @@
   margin-left: 3%;
   margin-right: 3%;
   text-align: center;
-  font-family: Papyrus;
+  /* font-family: Papyrus; */
   font-size: 30px;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { getSchools } from '../redux'
+import Image from 'react-bootstrap/Image'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -9,6 +10,8 @@ import ImportContactsIcon from '@material-ui/icons/ImportContacts';
 import StarsIcon from '@material-ui/icons/Stars';
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
+import gmaillogo from '../Images/gmaillogo.png'
+import linkedinlogo from '../Images/linkedinlogo.png'
 
 const icons = [<ImportContactsIcon />, <LocalLibraryIcon />, <MenuBookIcon />]
 
@@ -58,6 +61,15 @@ class Schools extends React.Component {
             icon={<StarsIcon />}
           />
         </VerticalTimeline>
+        <hr/>
+        <div className='logos-block'>
+          <a href='mailto:ncgeismar@gmail.com'>
+          <Image className='bio-logos' src={gmaillogo} />
+            </a>
+            <a href='https://www.linkedin.com/in/nicholas-geismar/'>
+            <Image className='bio-logos' src={linkedinlogo} />
+            </a>
+        </div>
       </div>
     )
   }

@@ -6,6 +6,8 @@ import Image from 'react-bootstrap/Image'
 import Fade from 'react-reveal/Fade';
 import cookdpic from '../Images/cookdpic.jpg'
 import resumewebpic from '../Images/resumewebsite.jpg'
+import gmaillogo from '../Images/gmaillogo.png'
+import linkedinlogo from '../Images/linkedinlogo.png'
 
 
 class Projects extends React.Component {
@@ -51,8 +53,16 @@ class Projects extends React.Component {
           <u>Technologies used:</u>
           <p>react, react-redux, express, postgres (SQL relational database), webpack</p>
         </h3>
-        <hr />
         </Fade>
+        <hr/>
+        <div className='logos-block'>
+          <a href='mailto:ncgeismar@gmail.com'>
+          <Image className='bio-logos' src={gmaillogo} />
+            </a>
+            <a href='https://www.linkedin.com/in/nicholas-geismar/'>
+            <Image className='bio-logos' src={linkedinlogo} />
+            </a>
+        </div>
       </div>
     )
   }

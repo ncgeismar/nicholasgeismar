@@ -17,7 +17,7 @@ const seed = async () => {
     })
 
     const sequelizeDescription = await Description.create({
-      description: 'Sequelize is a promise-based node.js object-relation map for postgres (my most used database), mySQL, mariaDB, SQlite and Microsoft SQL server.  In my own words: Sequelize is a middle man language connecting incompatible data from a database into data that can be used readily in front-end frameworks.'
+      description: 'Sequelize is a promise-based node.js object-relation map for postgres (databse used to create this website), mySQL, mariaDB, SQlite and Microsoft SQL server.  In my own words: Sequelize is a middle man language connecting incompatible data from a database into data that can be used readily in front-end frameworks.'
     })
 
     const postgresDescription = await Description.create({
@@ -89,15 +89,15 @@ const seed = async () => {
     })
 
     const albanyDescription = await Description.create({
-      description: 'SUNY Albany was a great place to pursue my Bachelors of Science in Biology.  The faculty was great up until my last year.  The teachers in the Biology department really cared about the subject and made every facet interesting.'
+      description: 'SUNY Albany was a great place to pursue my Bachelors of Science in Biology. The teachers in the Biology department really cared about the subject and made every facet interesting.'
     })
 
     const fullStackAcademyDescription = await Description.create({
-      description: 'Fullstack academy helped flourish my basic understanding of javascript and turn it in to a work of art.  From the people I worked with to the teachers I learned from, every part of this school was a great experience.'
+      description: 'Fullstack academy helped flourish my basic understanding of javascript and turn it in to a work of art. From the people I worked with to the teachers I learned from, every part of this school was a great experience.'
     })
 
     const fullStackAcademyDescription2 = await Description.create({
-      description: 'Not only did fullstack teach me the essentials for web design, they taught me how to teach myself through online resources and trial and error.  With a react front end and a express backend we were taught all the essentials to putting together a beautiful single page application.'
+      description: 'Not only did fullstack teach me the essentials for web design, they taught me how to teach myself through online resources and trial and error. With a react front end and a express backend we were taught all the essentials to putting together a beautiful single page application.'
     })
 
     //Skills Section ======================================================================================================================
