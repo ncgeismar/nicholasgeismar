@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start-dev": "webpack -w & nodemon & npx localtunnel --port 3000 --subdomain nicholasgeismar",
+    "start-dev": "webpack -w & npx localtunnel --port 3000 --subdomain nicholasgeismar",
     "seed": "node seed.js"
   },
   "author": "",
