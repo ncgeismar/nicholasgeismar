@@ -11,7 +11,7 @@ const db = new Sequelize('defaultdb', 'doadmin', 'mjvhsoyjehbn83x5', {
   dialectOptions: {
     ssl: {
       require: true,
-      rejectUnauthorized: false // <<<<<<< YOU NEED THIS
+      rejectUnauthorized: false
     }
   }
 })
