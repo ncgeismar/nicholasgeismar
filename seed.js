@@ -93,7 +93,7 @@ const seed = async () => {
     })
 
     const fullStackAcademyDescription = await Description.create({
-      description: 'Fullstack academy helped flourish my basic understanding of javascript and turn it in to a work of art. From the people I worked with to the teachers I learned from, every part of this school was a great experience.'
+      description: 'Fullstack academy helped my basic understanding of javascript flourish, turning it in to a work of art. From the people I worked with to the teachers I learned from, every part of this school was a great experience.'
     })
 
     const fullStackAcademyDescription2 = await Description.create({
