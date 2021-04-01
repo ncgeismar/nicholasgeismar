@@ -30,10 +30,10 @@ class Jobs extends React.Component {
                 <VerticalTimelineElement
                   key={job.id}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: '#1CCAD8', color: '#0B090B' }}
-                  contentArrowStyle={{ borderRight: '7px solid  #5CC757' }}
+                  contentStyle={{ background: '#F19953', color: '#0B090B' }}
+                  contentArrowStyle={{ borderRight: '7px solid  #F19953' }}
                   date={`${job.start} - ${job.end}`}
-                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                  iconStyle={{ background: '#F19953', color: '#fff' }}
                   icon={<WorkRoundedIcon />}
                 >
                   <div key={job.id}>

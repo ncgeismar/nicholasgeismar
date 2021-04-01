@@ -11,19 +11,25 @@
   line-height: 1em;
 }
 
+body {
+  background-color: #F2F5EA;
+}
+
 .navbar {
   text-align: center;
   border-radius: 25px;
-  background-color: rgb(69, 175, 236);
+  background-color: #45afec;
+  border-color: #ea4c4b;
   padding-bottom: 4px;
   width: 90%;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
 .navlinks {
   margin: 50px;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size: 35px;
+  color: #551a8b;
 }
 
 .projectheaders {
@@ -38,7 +44,7 @@
   text-align:center;
   margin-top: 50px;
   height: 45px;
-  background-color: #55DDE0;
+  background-color: #BD93D8;
 }
 
 .bob-picture {
@@ -123,10 +129,6 @@
   text-align: center;
   /* font-family: Papyrus; */
   font-size: 30px;
-}
-
-body {
-  background-color: #e4dede;
 }
 
 @media (min-width: 1015px) and (max-width: 1360px) {
