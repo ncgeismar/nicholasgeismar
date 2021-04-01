@@ -34,10 +34,10 @@ class Schools extends React.Component {
               <VerticalTimelineElement
                 key={school.id}
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#48a8f7', color: '#0B090B' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                contentStyle={{ background: '#F19953', color: '#0B090B' }}
+                contentArrowStyle={{ borderRight: '7px solid  #F19953' }}
                 date={school.end}
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#F19953', color: '#fff' }}
                 icon={icon}
               >
                 <div key={school.id}>
