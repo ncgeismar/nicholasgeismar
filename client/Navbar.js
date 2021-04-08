@@ -24,19 +24,19 @@ class Navigationbar extends Component {
           <Nav className="mr-auto">
             {/* <Nav.Link as={Link} to="/" className='navlinks' >Home</Nav.Link> */}
             <Nav.Link as={Link} to='/skills' className='navlinks'>
-              <Image className='nav-image' src={animatedbrain} />
+              {/* <Image className='nav-image' src={animatedbrain} /> */}
             Skills
             </Nav.Link>
             <Nav.Link as={Link} to='/jobs' className='navlinks'>
-              <Image className='nav-image-pencil' src={animatedpencil} />
+              {/* <Image className='nav-image-pencil' src={animatedpencil} /> */}
               Jobs
               </Nav.Link>
             <Nav.Link as={Link} to='/schools' className='navlinks'>
-            <Image className='nav-image-school' src={animatedschool} />
+            {/* <Image className='nav-image-school' src={animatedschool} /> */}
               Schools
               </Nav.Link>
             <Nav.Link as={Link} to='/projects' className='navlinks'>
-            <Image className='nav-image-laptop' src={animatedlaptop} />
+            {/* <Image className='nav-image-laptop' src={animatedlaptop} /> */}
               Projects
               </Nav.Link>
           </Nav>
